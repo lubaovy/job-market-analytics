@@ -1,0 +1,41 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# =========================
+# Virtual Environment
+# =========================
+venv/
+.env
+
+# =========================
+# Raw / Processed Data
+# =========================
+raw_data/*.jsonl
+raw_data/*.csv
+processed_data/*.jsonl
+processed_data/*.csv
+
+# =========================
+# Logs / Temp
+# =========================
+*.log
+*.sqlite
+*.db
+
+# =========================
+# Selenium / Chrome
+# =========================
+.chromedriver/
+chrome-profile/
+
+# =========================
+# OS / IDE
+# =========================
+.DS_Store
+.idea/
+.vscode/
